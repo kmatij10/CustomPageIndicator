@@ -2,6 +2,15 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
+# macOS Files
+.DS_Store
+
+# Xcode Files
+**/*.xcodeproj/*
+!**/*.xcodeproj/project.pbxproj
+**/*.xcworkspace/*
+!**/*.xcworkspace/contents.xcworkspacedata
+
 ## User settings
 xcuserdata/
 
